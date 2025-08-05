@@ -2,7 +2,7 @@ import os
 from openai import OpenAI
 
 # Create client with API key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="Enter API key")
 
 def get_ai_response(user_input):
     try:
